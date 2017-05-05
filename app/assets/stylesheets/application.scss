@@ -1,0 +1,101 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two|Sanchez');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import "materialize/components/color";
+    $primary-color: color("purple", "lighten-2") !default;
+    $secondary-color: color("yellow", "base") !default;
+@import "materialize";
+
+$logo-font: "'Lobster Two', cursive";
+$title-font: "'Sanchez', serif";
+
+ body {
+      margin: 0 auto;
+      width: 100%;
+      background-color: #fffff9;
+ }
+ nav {
+   background-color: transparent;
+   }
+
+ nav ul li a{
+   color: #880e4f;
+   }
+
+   nav ul li a:hover{
+        text-decoration: none;
+     color: #880e4f;
+     font-size: 16px;
+     }
+
+     nav ul li a:visited{
+     text-decoration: none;
+       color: #880e4f;
+       }
+
+     nav ul li a:active {
+     background-color: #4a148c;
+     text-decoration: none;
+     color: #880e4f;
+     font-size: 16px;
+       }
+
+
+ .container-home h2{
+          font-size: 12px;
+}
+ .brand-logo{
+     color: #880e4f;
+     font-family: 'Lobster', cursive;
+}
+
+.colored-text {
+     color: #880e4f;
+}
+
+.login-pagewrap {
+     margin-top: 5%;
+}
+
+.card-image {
+    background-color: white;
+}
+
+// @media only screen and (max-width: 1024px) {
+//
+// }
+
+@media only screen and (max-width: 900px){
+    .login-pagewrap {
+         margin-top: 15%;
+    }
+
+    .card-image {
+        display:none;
+    }
+}
+
+@media only screen and (max-width: 500px){
+     .login-pagewrap {
+          margin-top: 20%;
+     }
+
+}
+// @media only screen and (max-width: 300px){
+// }

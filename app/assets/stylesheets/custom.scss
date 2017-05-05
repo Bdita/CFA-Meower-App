@@ -1,0 +1,36 @@
+@import 'application.scss';
+.form-signin {
+    max-width: 330px;
+    padding: 10%;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+
+.form-signin-heading{
+    font-size: 14px;
+    font-color: #263238;
+    font-weight: bold;
+    font-family: $title-font;
+}
+
+.form-signin .form-control {
+    position: relative;
+    height: auto;
+    border: 1.5px solid #1a237e;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 12px;
+}
+
+input.form-control:focus {
+    background-color: transparent;
+    border: 1px solid #1a237e;
+    box-sizing: border-box;
+    z-index: 2;
+}
+.btn, .btn-lg, .btn-primary, .btn-block{
+    background-color: black;
+}

@@ -1,0 +1,22 @@
+<div class = "container login-pagewrap">
+    <div class="col s12 m12 lg10">
+        <div class="card horizontal">
+            <div class="card-image">
+                <img src="http://res.cloudinary.com/dihqhbf9i/image/upload/b_rgb:fff,o_79/v1489632811/colorful-1353144_1920_ya9y07.png">
+            </div>
+            <div class="card-stacked">
+                <div class="card-content">
+                    <%= form_for(resource, as: resource_name, url: session_path(resource_name), html: { class: "form-signin" }) do |f| %>
+                        <h2 class="form-signin-heading">Please sign in</h2>
+                        <%= f.label :email, "Email", :class => "sr-only" %>
+                        <%= f.email_field :email, autofocus: false, :class => "form-control", :placeholder => "john@example.com" %>
+                        <%= f.label :password, "Password", :class => "sr-only" %>
+                        <%= f.password_field :password, autocomplete: "off", :class => "form-control", :placeholder => "Your password" %>
+                        <%= f.submit "Sign in", :class=> "btn btn-lg btn-primary btn-block" %>
+                        <%= render "devise/shared/links" %>
+                    <% end %>
+                </div> <!-- card-content-->
+            </div><!-- card-stacked-->
+        </div><!-- card-horizontal-->
+    </div><!-- col s12 m10 lg10-->
+</div><!-- container-->
