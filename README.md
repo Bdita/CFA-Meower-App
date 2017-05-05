@@ -1,4 +1,4 @@
-!(http://res.cloudinary.com/dihqhbf9i/image/upload/v1493985731/Screenshot_from_2017-05-05_21-20-32_fcfmkc.png)
+![N|Solid](http://res.cloudinary.com/dihqhbf9i/image/upload/v1493985731/Screenshot_from_2017-05-05_21-20-32_fcfmkc.png)
 An attempt to clone twitter, but with a twist! Yes, the user can meow instead of tweet and purr instead of like.
 ###  Instruction for running the app locally
 This application is developed using ruby on rails. You'll atleast require the following version or higher.
@@ -15,7 +15,7 @@ $ rails s
 ### Design and Development Process
 1) Used Trello for all user stories.
 2) Narrowed down the user stories for MVP.
-!(http://res.cloudinary.com/dihqhbf9i/image/upload/v1493987102/MVP_User_story_vaofby.png)
+![N|Solid](http://res.cloudinary.com/dihqhbf9i/image/upload/v1493987102/MVP_User_story_vaofby.png)
 3) Application development(using Ruby on Rails and gems: devise and socialization, cloudinary for asset storage and management)
 
 ### Next Level
